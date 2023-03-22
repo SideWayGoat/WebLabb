@@ -11,6 +11,25 @@ body {
     font-family: sans-serif;
 }
 
+.eight-bit {
+    /* change the font to a pixelated font */
+    font-family: 'Press Start 2P', cursive;
+    
+    /* use a limited color palette */
+    color: #f2c9ac;
+    background-color: #454545;
+}
+
+#cvjson{
+    grid-area: main;
+}
+#cvjson ul{
+    list-style: none;
+}
+
+
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -236,4 +255,8 @@ input#hide:checked ~ span#content {
         min-width: 360px;
 
     }
-
+    #cvjson h2, p, h3, ul, li{
+        display: flex;
+        flex-direction: column;
+    }
+}

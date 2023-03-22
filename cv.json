@@ -1,0 +1,64 @@
+{
+    "name": "Patrik Skattberg",
+    "email": "patrik.skattberg@edu.varberg.se",
+    "phone": "0761960876",
+    "address": "42 Fake Street",
+    "summary": "A quick learner that does what needs to get done in order to be useful in the workplace",
+    "experience": [
+        {
+            "position": "Warehouse Logistic",
+            "company": "Vagabond Shoemakers",
+            "location": "Birger Svenssons väg 16",
+            "start_date": "2017-02-01",
+            "end_date": "Still employed",
+            "responsibilities": [
+                "I booked orders for pickup.",
+                "Had drivers sign paperwork",
+                "Gathered and fixed orders for pickup",
+                "Drove loading truck",
+                "Had contact with HQ",
+                "Wrote CMR",
+                "Teaching the new crew on what to do"
+            ]
+        },
+        {
+            "position": "Nurse",
+            "company": "Varbergs Kommun / Östergården",
+            "location": "Träslövsvägen 21",
+            "start_date": "2016-06-25",
+            "end_date": "2017-01-25",
+            "responsibilities": [
+                "Medicin delegation",
+                "Cleaning",
+                "Feeding",
+                "Maintain hygene of residents",
+                "Stocking"
+            ]
+        },
+        {
+            "position":"Nurse",
+            "company":"Varbergs Kommun / Hospital",
+            "location": "Träslövsvägen 68",
+            "start_date": "2016-01-01",
+            "end_date": "2016-05-01",
+            "responsibilities":[
+                "Gathering medical data such as BP, temperature, blood sugar level",
+                "Cleaning",
+                "Medicin Delegation",
+                "Feeding"
+            ]
+        },
+        {
+            "position": "Farm hand",
+            "company": "Skygge gård",
+            "location": "Skygge",
+            "start_date": "2011-03-01",
+            "end_date": "2011-06-06",
+            "responsibilities":[
+                "Milking cows",
+                "Driving tractor and mow fields",
+                "Clean barn"
+            ]
+        }
+    ]
+}
