@@ -11,15 +11,6 @@ body {
     font-family: sans-serif;
 }
 
-.eight-bit {
-    /* change the font to a pixelated font */
-    font-family: 'Press Start 2P', cursive;
-    
-    /* use a limited color palette */
-    color: #f2c9ac;
-    background-color: #454545;
-}
-
 #cvjson{
     grid-area: main;
 }

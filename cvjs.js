@@ -7,8 +7,6 @@ cv.innerHTML = `
     <p>Email: ${data.email}</p>
     <p>Phone: ${data.phone}</p>
     <p>Address: ${data.address}</p>
-    <h3>Summary</h3>
-    <p>${data.summary}</p>
     <h3>Experience</h3>
     <ul>
     ${data.experience.map(job => `
@@ -23,6 +21,18 @@ cv.innerHTML = `
         </li>
     `).join('')}
     </ul>
-`;
-})
-.catch(error => console.error(error));
+    <h2>Education</h2>
+    <ul>
+    ${data.education.map(school => `
+        <li>
+        <h4>${school.qualification}</h4>
+        <p>${school.location} | ${school.start_date} to ${school.end_date}</p>
+        <ul>
+            ${school.knowledge.map(knowledge => `
+            <li>${knowledge}</li>
+            `).join('')}
+        </ul>
+        </li>
+    `).join('')}
+    </ul>`;})
+    

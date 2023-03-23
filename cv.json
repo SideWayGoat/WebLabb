@@ -3,7 +3,40 @@
     "email": "patrik.skattberg@edu.varberg.se",
     "phone": "0761960876",
     "address": "42 Fake Street",
-    "summary": "A quick learner that does what needs to get done in order to be useful in the workplace",
+    "education": [
+        {
+            "qualification": "System developer .NET",
+            "location": "Campus Varberg",
+            "start_date": "2022-08-06",
+            "end_date": "Ongoing",
+            "knowledge": [
+                ".NET",
+                "Database",
+                "React",
+                "Entity Framework"
+            ]
+        },
+        {
+            "qualification": "Nurse",
+            "location": "Drottningblanka Varberg",
+            "start_date": "2013-08-06",
+            "end_date": "2016-06-10",
+            "knowledge":[
+                "Can't actually remember what they taught us"
+            ]
+        },
+        {
+            "qualification": "Animal Care",
+            "location": "Munkagård",
+            "start_date": "2011-08-06",
+            "end_date": "2012-12-12",
+            "knowledge":[
+                "Hard work",
+                "Knowledge on how to care for different animals",
+                "Independence"
+            ]
+        }
+    ],
     "experience": [
         {
             "position": "Warehouse Logistic",
@@ -18,7 +51,8 @@
                 "Drove loading truck",
                 "Had contact with HQ",
                 "Wrote CMR",
-                "Teaching the new crew on what to do"
+                "Teaching the new crew on what to do",
+                "Orginized deliveries"
             ]
         },
         {
